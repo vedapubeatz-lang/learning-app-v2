@@ -1,24 +1,17 @@
 export default function Home() {
   return (
     <div style={{ padding: 20 }}>
-      <h1>Learning App Dashboard</h1>
+      <h1>AI Learning App</h1>
+      <p>Select a feature:</p>
 
-      <p>Current Skill Level: Beginner</p>
-
-      <div style={{ width: "100%", backgroundColor: "#ddd", height: 20 }}>
-        <div
-          style={{
-            width: "25%",
-            backgroundColor: "green",
-            height: 20,
-          }}
-        />
-      </div>
-
-      <p>Progress: 25%</p>
-
-      <p>Next lesson: Python Variables</p>
+      <ul>
+        <li><a href="/chat">🤖 AI Tutor</a></li>
+        <li><a href="/notes">📝 Notes</a></li>
+        <li><a href="/community">👥 Community</a></li>
+      </ul>
     </div>
   );
 }
+
+
 
